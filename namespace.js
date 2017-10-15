@@ -2,7 +2,7 @@ var MAGA0030 = {
     init:function() {
         var div = document.createElement("div");
         div.className = "box";
-        div.textContent = "MAGA0030";
+        div.textContent = "maga0030";
         document.getElementById("boxes").appendChild(div);
 
         div.addEventListener("click", divClick);
